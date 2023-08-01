@@ -1,0 +1,38 @@
+.accordion{
+    padding: 1rem;
+}
+.accordion-item{
+    padding: 2rem 1rem;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.accordion-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(103, 231, 231);;
+}
+
+.accordion-title i{
+    color: rgb(103, 231, 231);
+    font-size: 1.2rem;
+}
+
+.accordion-body{
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+.accordion-body-inner{
+    padding: 1rem 0;
+}
+
+.invisible{
+    max-height: 0px;
+}
+
+.visible{
+    max-height: 200px;
+}
